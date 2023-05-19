@@ -72,6 +72,15 @@ echo "guests, and featured images"
 sh -c "bundle exec jekyll build --future"
 
 echo "#################################################"
+echo "Make the OpenAI Dall-E script executable"
+WF_FEATURED_IMAGES_SCRIPT="create-featured-image.sh"
+sh -c "chmod +x $WF_FEATURED_IMAGES_SCRIPT"
+
+echo "#################################################"
+echo "Run the featured images code"
+sh $WF_FEATURED_IMAGES_SCRIPT
+
+echo "#################################################"
 echo "Publish all images created by the scripts"
 git add featured-images/\*
 git status

@@ -1,0 +1,25 @@
+{
+    "status": "success",
+    "generationTime": 1.2364873886108398,
+    "id": 17190082,
+    "output": [
+        "https://pub-8b49af329fae499aa563997f5d4068a4.r2.dev/generations/c927c378-5bac-4753-87bd-9f6bd9af3779-0.png"
+    ],
+    "meta": {
+        "H": 512,
+        "W": 512,
+        "enable_attention_slicing": "true",
+        "file_prefix": "c927c378-5bac-4753-87bd-9f6bd9af3779",
+        "guidance_scale": 7.5,
+        "model": "runwayml/stable-diffusion-v1-5",
+        "n_samples": 1,
+        "negative_prompt": " ((out of frame)), ((extra fingers)), mutated hands, ((poorly drawn hands)), ((poorly drawn face)), (((mutation))), (((deformed))), (((tiling))), ((naked)), ((tile)), ((fleshpile)), ((ugly)), (((abstract))), blurry, ((bad anatomy)), ((bad proportions)), ((extra limbs)), cloned face, glitchy, ((extra breasts)), ((double torso)), ((extra arms)), ((extra hands)), ((mangled fingers)), ((missing breasts)), (missing lips), ((ugly face)), ((fat)), ((extra legs))",
+        "outdir": "out",
+        "prompt": "ultra realistic close up portrait ((beautiful pale cyberpunk female with heavy black eyeliner)) DSLR photography, sharp focus, Unreal Engine 5, Octane Render, Redshift, ((cinematic lighting)), f/1.4, ISO 200, 1/160s, 8K, RAW, unedited, symmetrical balance, in-frame",
+        "revision": "fp16",
+        "safetychecker": "no",
+        "seed": 3619952648,
+        "steps": 20,
+        "vae": "stabilityai/sd-vae-ft-mse"
+    }
+}
