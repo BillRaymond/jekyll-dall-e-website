@@ -1,5 +1,7 @@
 FROM billraymond/agile-in-action-minima-docker-image:latest
 
+RUN apt-get -y install \
+    jq
 RUN echo "#################################################"
 RUN echo "set default environment variables"
 RUN echo "ARG is accessible only when building the image"
