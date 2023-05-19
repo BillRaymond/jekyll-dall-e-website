@@ -1,6 +1,9 @@
 #!/bin/bash
 set -x
 
+echo "#################################################"
+echo "Run the code to create the featured image"
+
 prompt="a tiny finch on a branch with (spring flowers on background 1.0), aesthetically inspired by evelyn de morgan, art by bill sienki"
 echo "Prompt: $prompt"
 
